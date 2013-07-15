@@ -32,5 +32,9 @@ describe("FizzBuzz", function(){
             expect(actual).toEqual("Buzz");
         });
 
+        it("15の倍数の時はFizzBuzzが返ってくる", function(){
+            var actual = fizzBuzz.show(15);
+            expect(actual).toEqual("FizzBuzz");
+        });
     });
 });
