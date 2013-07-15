@@ -7,6 +7,6 @@
  */
 var fizzBuzz = {
     show : function(str){
-
+        return "Fizz"
     }
 }
