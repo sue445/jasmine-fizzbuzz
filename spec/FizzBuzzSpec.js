@@ -12,7 +12,7 @@ describe("FizzBuzz", function(){
             expect(actual).toEqual("Fizz");
         });
 
-        it("5の時はFizzが返ってくる", function(){
+        it("5の時はBuzzが返ってくる", function(){
             var actual = fizzBuzz.show(5);
             expect(actual).toEqual("Buzz");
         });

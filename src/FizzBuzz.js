@@ -6,7 +6,11 @@
  * To change this template use File | Settings | File Templates.
  */
 var fizzBuzz = {
-    show : function(str){
-        return "Fizz"
+    show : function(num){
+        if(num == 3){
+            return "Fizz";
+        }
+
+        return "Buzz";
     }
 }
