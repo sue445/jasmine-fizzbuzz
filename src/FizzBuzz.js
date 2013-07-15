@@ -11,6 +11,10 @@ var fizzBuzz = {
             return "Fizz";
         }
 
-        return "Buzz";
+        if(num == 5){
+            return "Buzz";
+        }
+
+        return num;
     }
 }

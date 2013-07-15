@@ -16,5 +16,10 @@ describe("FizzBuzz", function(){
             var actual = fizzBuzz.show(5);
             expect(actual).toEqual("Buzz");
         });
+
+        it("3の倍数でも5の倍数でもない時はそのまま返ってくる", function(){
+            var actual = fizzBuzz.show(1);
+            expect(actual).toEqual(1);
+        });
     });
 });
